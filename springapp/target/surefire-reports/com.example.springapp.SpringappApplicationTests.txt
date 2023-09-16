@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.example.springapp.SpringappApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 4.033 s <<< FAILURE! - in com.example.springapp.SpringappApplicationTests
-testgetByID  Time elapsed: 0.322 s  <<< FAILURE!
+Tests run: 9, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 4.312 s <<< FAILURE! - in com.example.springapp.SpringappApplicationTests
+testgetByID  Time elapsed: 0.357 s  <<< FAILURE!
 java.lang.AssertionError: Status expected:<200> but was:<404>
 	at com.example.springapp.SpringappApplicationTests.testgetByID(SpringappApplicationTests.java:40)
 
-testrepositoryfolder  Time elapsed: 0.006 s  <<< FAILURE!
+testrepositoryfolder  Time elapsed: 0.007 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.example.springapp.SpringappApplicationTests.testrepositoryfolder(SpringappApplicationTests.java:80)
 
@@ -34,7 +34,7 @@ testcontrollerfile  Time elapsed: 0.002 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.example.springapp.SpringappApplicationTests.testcontrollerfile(SpringappApplicationTests.java:58)
 
-testServieFile  Time elapsed: 0.002 s  <<< FAILURE!
+testServieFile  Time elapsed: 0.003 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at com.example.springapp.SpringappApplicationTests.testServieFile(SpringappApplicationTests.java:103)
 
